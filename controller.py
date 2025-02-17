@@ -62,8 +62,8 @@ def check():
 
     time.sleep(10)
     
-    response = check_winning_win720(globalAuthCtrl)
-    send_message(0, 1, response=response, webhook_url=discord_webhook_url)
+    #response = check_winning_win720(globalAuthCtrl)
+    #send_message(0, 1, response=response, webhook_url=discord_webhook_url)
 
 def buy(): 
     
